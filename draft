@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flicker & Flame</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8e1;
+            color: #5d4037;
+        }
+        header {
+            background-color: #ff7043;
+            color: #ffffff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #8d6e63;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1rem;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            background-color: #5d4037;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background-color: #8d6e63;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .background-image {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.1;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+    <header>
+        <h1>Flicker & Flame</h1>
+        <p>Άσε τη φωτιά να σε ταξιδέψει</p>
+    </header>
+    <nav>
+        <a href="#about-us">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#decor-ideas">Decor Ideas</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>Welcome to Flicker & Flame, where we believe in the transformative power of firelight. Our brand is dedicated to providing high-quality candles and fire-inspired decor that bring warmth, ambiance, and a touch of magic to your home. We are passionate about craftsmanship, sustainability, and creating products that inspire and delight.</p>
+    </section>
+    <section id="products">
+        <h2>Products</h2>
+        <p>Explore our diverse range of candles, from aromatic scents to elegant designs. Each candle is crafted with care, using premium materials to ensure a long-lasting and beautiful burn. Discover our latest collections and find the perfect addition to your home or gift for a loved one.</p>
+    </section>
+    <section id="decor-ideas">
+        <h2>Decor Ideas</h2>
+        <p>Get inspired with our decor ideas to enhance your living space. From creating cozy nooks to designing stunning table centerpieces, our tips and tricks will help you make the most of your Flicker & Flame products. Let the firelight guide your creativity and transform your home into a haven of warmth and style.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>We'd love to hear from you! Whether you have questions, feedback, or simply want to say hello, feel free to reach out to us. You can contact us at:</p>
+        <ul>
+            <li>Email: flickerandflame@gmail.com</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Flicker & Flame. All rights reserved.</p>
+    </footer>
+</body>
+</html>
